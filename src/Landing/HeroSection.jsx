@@ -2,7 +2,7 @@ import React from 'react'
 
 const HeroSection = () => {
   return (
-    <div className='h-screen flex flex-col justify-center items-center px-[16rem] gap-[4rem]'>
+    <div className='h-screen flex flex-col justify-center items-center md:px-[8rem] lg:px-[16rem] gap-[4rem]'>
       {/* Top */}
       <div className=' flex flex-row justify-center items-center gap-[4rem]'>
         {/* Left */}

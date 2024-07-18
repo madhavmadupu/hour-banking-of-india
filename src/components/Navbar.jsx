@@ -2,11 +2,11 @@ import React from 'react'
 
 const Navbar = () => {
   return (
-    <div className='flex flex-row justify-between px-[16rem] py-[0.5rem] border-b-2 fixed w-full bg-white'>
+    <div className='lg:flex flex-row justify-between md:px-[8rem] lg:px-[16rem] py-[0.5rem] border-b-2 fixed w-full bg-white hidden'>
         {/* Logo */}
         <div className='flex flex-row justify-center items-center gap-[1rem]'>
             <img src={"/assets/logo_placeholder.svg"} alt="logo" />
-            <h1 className='font-medium'>Hour Banking Of India</h1>
+            <h1 className='font-medium inline-block whitespace-nowrap'>Hour Banking Of India</h1>
         </div>
         {/* NavList */}
         <div className='flex flex-row justify-center items-center gap-[2rem] text-[#625B71]'>
